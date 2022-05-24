@@ -15,7 +15,7 @@ struct MapAppApp: App {
     var body: some Scene {
         WindowGroup {
             Group {
-                ContentView()
+                
                 LocationsView()
             }
             .environmentObject(locationViewModel)

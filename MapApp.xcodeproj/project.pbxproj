@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D77DF6B7283A77FF003DF7F4 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77DF6B6283A77FF003DF7F4 /* LocationPreviewView.swift */; };
 		D7AF356D2838DB340095E4B7 /* MapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF356C2838DB340095E4B7 /* MapAppApp.swift */; };
 		D7AF356F2838DB340095E4B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7AF356E2838DB340095E4B7 /* ContentView.swift */; };
 		D7AF35742838DB3D0095E4B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7AF35732838DB3D0095E4B7 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D77DF6B6283A77FF003DF7F4 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
 		D7AF35692838DB340095E4B7 /* MapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7AF356C2838DB340095E4B7 /* MapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAppApp.swift; sourceTree = "<group>"; };
 		D7AF356E2838DB340095E4B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			children = (
 				D7AF35842838DE8E0095E4B7 /* LocationsView.swift */,
 				D7AF358A283901C10095E4B7 /* LocationsList.swift */,
+				D77DF6B6283A77FF003DF7F4 /* LocationPreviewView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			files = (
 				D7AF356F2838DB340095E4B7 /* ContentView.swift in Sources */,
 				D7AF358B283901C10095E4B7 /* LocationsList.swift in Sources */,
+				D77DF6B7283A77FF003DF7F4 /* LocationPreviewView.swift in Sources */,
 				D7AF35872838E23E0095E4B7 /* LocationsViewModel.swift in Sources */,
 				D7AF356D2838DB340095E4B7 /* MapAppApp.swift in Sources */,
 				D7AF35852838DE8E0095E4B7 /* LocationsView.swift in Sources */,
