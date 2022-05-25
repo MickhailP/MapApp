@@ -29,6 +29,9 @@ class LocationsViewModel: ObservableObject{
     //Show list if Locations
     @Published var showLocationList: Bool = false
     
+    //Show detailed location view
+    @Published var detailedLocation: Location? = nil
+    
     init() {
         let locations = LocationsDataService.locations
         self.locations = locations

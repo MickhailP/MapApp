@@ -64,7 +64,7 @@ extension LocationPreviewView {
     private var buttonSection: some View {
         VStack {
             Button {
-            
+                locationViewModel.detailedLocation = location
             } label: {
                 Text("Learn more")
                     .font(.headline)
